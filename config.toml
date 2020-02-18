@@ -47,11 +47,11 @@ paginate = 10
     url  = "/existing-patient/"
     weight = 8
 
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url  = "/about/"
-    weight = 10
+# [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url  = "/about/"
+#     weight = 10
 
 [[menu.main]]
     identifier = "services"
@@ -144,7 +144,7 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2009 - 2020, Lung Care Specialist of Georgia; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"

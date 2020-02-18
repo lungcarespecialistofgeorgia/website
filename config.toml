@@ -42,40 +42,52 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
+    parent = "new-patient"
+    name = "New Patient Form"
+    url  = "/new-patient/"
+    weight = 5
+
+[[menu.main]]
     identifier = "existing-patient"
     name = "Existing Patient"
     url  = "/existing-patient/"
     weight = 8
-
-# [[menu.main]]
-#     identifier = "about"
-#     name = "About"
-#     url  = "/about/"
-#     weight = 10
+    
+[[menu.main]]
+    parent = "existing-patient"
+    name = "Eclinicals Portal Link"
+    url  = "/existing-patient/"
+    weight = 10
 
 [[menu.main]]
-    identifier = "services"
+    parent = "existing-patient"
+    name = "Eclinicals Portal Link2"
+    url  = "/existing-patient/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url  = "/about/"
+    weight = 10
+
+[[menu.main]]
+    parent = "about"
+    name = "Staff"
+    url  = "/services/"
+    weight = 10
+
+[[menu.main]]
+    parent = "about"
     name = "Services"
     url  = "/services/"
     weight = 20
 
 [[menu.main]]
-    identifier = "locations"
+    parent = "about"
     name = "Locations"
     url  = "/locations/"
     weight = 30
-
-[[menu.main]]
-    parent = "locations"
-    name = "Fayetteville"
-    url  = "/locations/"
-    weight = 1
-
-[[menu.main]]
-    parent = "locations"
-    name = "Thomaston"
-    url  = "/locations/"
-    weight = 2
 
 [[menu.main]]
     identifier = "contact"

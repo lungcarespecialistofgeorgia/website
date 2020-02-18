@@ -1,0 +1,10 @@
+weight: 3
+title: "Service 3"
+description: >
+  <ul class="list-style-none">
+     <li>Description</li>
+     <li>More Description</li>
+     <li>A Feature If you like</li>
+     <li>+ Another line</li>
+   </ul>
+image: "img/carousel/template-easy-customize.png"

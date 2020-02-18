@@ -38,55 +38,55 @@ paginate = 10
 [[menu.main]]
     identifier = "new-patient"
     name = "New Patient"
-    url  = "/new-patient/"
+    url  = "/filler/"
     weight = 5
 
 [[menu.main]]
     parent = "new-patient"
     name = "New Patient Form"
-    url  = "/new-patient/"
+    url  = "/filler/"
     weight = 5
 
 [[menu.main]]
     identifier = "existing-patient"
     name = "Existing Patient"
-    url  = "/existing-patient/"
+    url  = "/filler/"
     weight = 8
     
 [[menu.main]]
     parent = "existing-patient"
     name = "Eclinicals Portal Link"
-    url  = "/existing-patient/"
+    url  = "/filler/"
     weight = 10
 
 [[menu.main]]
     parent = "existing-patient"
     name = "Eclinicals Portal Link2"
-    url  = "/existing-patient/"
+    url  = "/filler/"
     weight = 20
 
 [[menu.main]]
     identifier = "about"
     name = "About"
-    url  = "/about/"
+    url  = "/filler/"
     weight = 10
 
 [[menu.main]]
     parent = "about"
     name = "Staff"
-    url  = "/services/"
+    url  = "/filler/"
     weight = 10
 
 [[menu.main]]
     parent = "about"
     name = "Services"
-    url  = "/services/"
+    url  = "/filler/"
     weight = 20
 
 [[menu.main]]
     parent = "about"
     name = "Locations"
-    url  = "/locations/"
+    url  = "/filler/"
     weight = 30
 
 [[menu.main]]

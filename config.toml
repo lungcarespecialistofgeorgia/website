@@ -1,5 +1,5 @@
 baseurl = "https://example.org"
-title = "Universal"
+title = "Lung Care Specialist of Georgia"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
 languageCode = "en-us"
@@ -44,7 +44,7 @@ paginate = 10
 [[menu.main]]
     parent = "new-patient"
     name = "New Patient Form"
-    url  = "/filler/"
+    url  = "/new-patient-form"
     weight = 5
 
 [[menu.main]]
@@ -78,6 +78,24 @@ paginate = 10
     weight = 40
 
 [[menu.main]]
+    parent = "existing-patient"
+    name = "Emory Portal"
+    url  = "https://www.emoryhealthcare.org/patient-portal/index.html"
+    weight = 50
+
+[[menu.main]]
+    parent = "existing-patient"
+    name = "Piedmont Portal"
+    url  = "https://mychart.piedmont.org/prd/Authentication/Login?"
+    weight = 60
+
+[[menu.main]]
+    parent = "existing-patient"
+    name = "Wellstar Portal"
+    url  = "https://mychart.wellstar.org/MyChart/"
+    weight = 70
+
+[[menu.main]]
     identifier = "about"
     name = "About"
     url  = "/filler/"
@@ -91,9 +109,15 @@ paginate = 10
 
 [[menu.main]]
     parent = "about"
-    name = "Services"
-    url  = "/filler/"
+    name = "Tests & Procedures"
+    url  = "/tests-and-procedures"
     weight = 20
+
+[[menu.main]]
+    parent = "about"
+    name = "Conditions We Treat"
+    url  = "/conditions-treated"
+    weight = 25
 
 [[menu.main]]
     parent = "about"
@@ -241,3 +265,7 @@ paginate = 10
     enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+[markup.goldmark.renderer]
+# To render raw html for form pages
+unsafe= true

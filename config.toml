@@ -199,9 +199,13 @@ paginate = 10
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Lung Care Specialist of Georgia</strong>
+    address = """<p class="text-uppercase"><strong>Lung Care Specialist of Georgia - Fayetteville</strong>
         <br>147 Marquis Drive
         <br>Fayetteville, GA 30214
+      </p>
+      <p class="text-uppercase"><strong>Lung Care Specialist of Georgia - Thomaston</strong>
+        <br>614 West Gordon Street
+        <br>Thomaston, GA 30286
       </p>
       """
     latitude = "33.450826"

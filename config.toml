@@ -53,17 +53,17 @@ paginate = 10
     url  = "/filler/"
     weight = 8
     
-[[menu.main]]
-    parent = "existing-patient"
-    name = "Eclinicals Portal Link"
-    url  = "/filler/"
-    weight = 10
+# [[menu.main]]
+#     parent = "existing-patient"
+#     name = "Eclinicals Portal Link"
+#     url  = "/filler/"
+#     weight = 10
 
-[[menu.main]]
-    parent = "existing-patient"
-    name = "Eclinicals Portal Link2"
-    url  = "/filler/"
-    weight = 20
+# [[menu.main]]
+#     parent = "existing-patient"
+#     name = "Eclinicals Portal Link2"
+#     url  = "/filler/"
+#     weight = 20
 
 [[menu.main]]
     parent = "existing-patient"
